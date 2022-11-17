@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.0'
+VERSION = '1.1'
 
 setup(
-    name='fracdiff',
+    name='fracdiff2',
     version=VERSION,
     description='Fractional Differentiation framework for time series.',
     author='Philippe Remy',
@@ -12,5 +12,6 @@ setup(
     install_requires=[
         'numpy',
         'pandas',
+        'matplotlib'
     ]
 )
